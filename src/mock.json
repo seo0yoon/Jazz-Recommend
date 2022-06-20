@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/1.jpg",
+    "rating": 1,
+    "content": "a"
+  },
+  {
+    "id": 2,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/2.jpg",
+    "rating": 2,
+    "content": "a"
+  },
+  {
+    "id": 3,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/3.jpg",
+    "rating": 3,
+    "content": "a"
+  },
+  {
+    "id": 4,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/4.jpg",
+    "rating": 4,
+    "content": "a"
+  },
+  {
+    "id": 5,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/5.jpg",
+    "rating": 5,
+    "content": "a"
+  },
+  {
+    "id": 6,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/6.jpg",
+    "rating": 1,
+    "content": "a"
+  },
+  {
+    "id": 7,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/7.jpg",
+    "rating": 2,
+    "content": "a"
+  },
+  {
+    "id": 8,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/8.jpg",
+    "rating": 3,
+    "content": "a"
+  },
+  {
+    "id": 9,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/9.jpg",
+    "rating": 4,
+    "content": "a"
+  },
+  {
+    "id": 10,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/10.jpg",
+    "rating": 6,
+    "content": "a"
+  },
+  {
+    "id": 11,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/11.jpg",
+    "rating": 5,
+    "content": "a"
+  },
+  {
+    "id": 12,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/12.jpg",
+    "rating": 1,
+    "content": "a"
+  },
+  {
+    "id": 13,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/13.jpg",
+    "rating": 2,
+    "content": "a"
+  },
+  {
+    "id": 14,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/14.jpg",
+    "rating": 3,
+    "content": "a"
+  },
+  {
+    "id": 15,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/15.jpg",
+    "rating": 4,
+    "content": "a"
+  },
+  {
+    "id": 16,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/16.jpg",
+    "rating": 5,
+    "content": "a"
+  },
+  {
+    "id": 17,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/17.jpg",
+    "rating": 5,
+    "content": "a"
+  },
+  {
+    "id": 18,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/18.jpg",
+    "rating": 3,
+    "content": "a"
+  },
+  {
+    "id": 19,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/19.jpg",
+    "rating": 1,
+    "content": "a"
+  },
+  {
+    "id": 20,
+    "artist": "Bill Evans Trio",
+    "title": "Autumn Leaves",
+    "img": "../public/images/20.jpg",
+    "rating": 3,
+    "content": "a"
+  }
+]
