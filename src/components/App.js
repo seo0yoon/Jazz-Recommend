@@ -5,7 +5,7 @@ import PlayListForm from "./PlayListForm";
 
 const App = () => {
   const [items, setItems] = useState(mockItems.slice(1, 6)); //처음에 5개만 보여줄려고
-  const [order, setOrder] = useState("rating"); //클릭한 값을 저장하는거 rating, artist
+  const [order, setOrder] = useState(""); //클릭한 값을 저장하는거 rating, artist
   const [count, setCount] = useState(11); //처음에 5개만 보여줬으니 초기값
   const [isDisabled, setIsDisabled] = useState(false);
 
@@ -37,7 +37,7 @@ const App = () => {
         <button onClick={hadleArtistClick}>제목순</button>
         <button onClick={hadleBestClick}>베스트순</button>
       </div>
-      <PlayListForm />
+      <PlayListForm setItems={setItems} items={items} />
       <PlayList items={sortedItems} onDelete={handleDelete} />
       <button disabled={isDisabled} onClick={handleMoreLoad}>
         더보기

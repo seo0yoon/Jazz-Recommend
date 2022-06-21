@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Rating from "./Rating";
 
 const PlayListItem = ({ item, onDelete }) => {
   const handleDeleteClick = () => onDelete(item.id);
@@ -10,7 +11,7 @@ const PlayListItem = ({ item, onDelete }) => {
       <div>
         <p>{item.artist}</p>
         <h1>{item.title}</h1>
-        <p>{item.rating}</p>
+        <Rating value={item.rating} />
         <p>{item.content}</p>
         <button onClick={handleDeleteClick}>삭제</button>
       </div>
