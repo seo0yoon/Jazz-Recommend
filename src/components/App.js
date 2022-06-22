@@ -2,6 +2,8 @@ import { useState } from "react";
 import PlayList from "./PlayList";
 import mockItems from "../mock.json";
 import PlayListForm from "./PlayListForm";
+import logoImg from "../assets/jazzlogo.png";
+import "./App.scss";
 
 const App = () => {
   const [items, setItems] = useState(mockItems.slice(1, 6)); //처음에 5개만 보여줄려고
@@ -32,16 +34,34 @@ const App = () => {
   };
 
   return (
-    <div>
-      <div>
-        <button onClick={hadleArtistClick}>제목순</button>
-        <button onClick={hadleBestClick}>베스트순</button>
+    <div className="App">
+      <nav className="App-nav">
+        <div className="App-nav-container">
+          <img className="App-logo" src={logoImg} alt="MOVIDE PEDIA" />
+        </div>
+      </nav>
+      <div className="App-container">
+        <div className="App-PlayListForm">
+          <PlayListForm setItems={setItems} items={items} />
+        </div>
+        <div className="App-sorts">
+          <button className="AppSortButton" selected={order === "createdAt"} onClick={hadleArtistClick}>
+            제목순
+          </button>
+          <button className="AppSortButton" selected={order === "rating"} onClick={hadleBestClick}>
+            베스트순
+          </button>
+        </div>
+        <div className="App-PlayList">
+          <PlayList items={sortedItems} onDelete={handleDelete} />
+          <button disabled={isDisabled} className="App-load-more-button" onClick={handleMoreLoad}>
+            More
+          </button>
+        </div>
       </div>
-      <PlayListForm setItems={setItems} items={items} />
-      <PlayList items={sortedItems} onDelete={handleDelete} />
-      <button disabled={isDisabled} onClick={handleMoreLoad}>
-        더보기
-      </button>
+      <footer className="App-footer">
+        <div className="App-footer-container"></div>
+      </footer>
     </div>
   );
 };

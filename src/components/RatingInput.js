@@ -19,4 +19,5 @@ export default RatingInput;
 
 const RatingWrap = styled.div`
   cursor: pointer;
+  padding: 30px 0 30px 35px;
 `;

@@ -1,0 +1,60 @@
+.PlayListForm {
+  display: flex;
+  max-width: 100%;
+  .PlayListForm-preview {
+    flex: none;
+    margin-right: 22px;
+  }
+  .PlayListForm-rows {
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    overflow: hidden;
+    .PlayListForm-title-rating {
+      display: flex;
+      align-items: center;
+      margin-top: 25px;
+      .PlayListForm-title {
+        padding: 15px 20px;
+        border: solid 1px #f9f9f9;
+        border-radius: 6px;
+        outline: none;
+        font-size: 16px;
+        background-color: #f9f9f9;
+        margin-right: 40px;
+        margin-left: 35px;
+        min-width: 0;
+        width: 600px;
+      }
+    }
+    .PlayListForm-artist {
+      padding: 15px 20px;
+      border: solid 1px #f9f9f9;
+      border-radius: 6px;
+      outline: none;
+      font-size: 16px;
+      background-color: #f9f9f9;
+      margin-right: 40px;
+      margin-left: 35px;
+      margin-top: 20px;
+      min-width: 0;
+    }
+    .PlayListForm-button {
+    }
+    .PlayListForm-submit-button {
+      position: absolute;
+      right: 50px;
+      top: 190px;
+      padding: 11px 30px;
+      border: none;
+      color: #000;
+      font-weight: 600px;
+      font-size: 17px;
+      cursor: pointer;
+      background-color: transparent;
+      border-radius: 0 10px 0 10px;
+      color: #fff;
+      background-color: #000;
+    }
+  }
+}

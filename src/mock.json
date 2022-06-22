@@ -1,162 +1,142 @@
 [
   {
     "id": 1,
-    "artist": "Bill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Brad Mehldau [Jacob's Ladder]",
+    "title": "maybe As His Skies Are Wide",
     "img": "/images/1.jpg",
-    "rating": 1,
-    "createdAt": 720220101
+    "rating": 3
   },
   {
     "id": 2,
-    "artist": "eeeill Evans Trio",
-    "title": "butumn Leaves",
+    "artist": "Oded Tzur [Isabela]",
+    "title": "The Lion Turtle",
     "img": "/images/2.png",
-    "rating": 2,
-    "createdAt": 120220101
+    "rating": 2
   },
   {
     "id": 3,
-    "artist": "hhhill Evans Trio",
-    "title": "cutumn Leaves",
+    "artist": "Tigran Hamasyan [StandArt]",
+    "title": "Softly, As In A Morning Sunrise",
     "img": "/images/3.jpg",
-    "rating": 3,
-    "createdAt": 420220101
+    "rating": 5
   },
   {
     "id": 4,
-    "artist": "qqill Evans Trio",
-    "title": "dutumn Leaves",
+    "artist": "Mark Turner [Return from the Stars]",
+    "title": "Nigeria II",
     "img": "/images/4.jpg",
-    "rating": 4,
-    "createdAt": 420220101
+    "rating": 2
   },
   {
     "id": 5,
-    "artist": "Bill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Art Blakey & the Jazz Messengers [First Flight to Tokyo : The Lost 1961 Recordings] ",
+    "title": "Moanin'",
     "img": "/images/5.jpg",
-    "rating": 5,
-    "createdAt": 320220101
+    "rating": 4
   },
   {
     "id": 6,
-    "artist": "ooill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Wayne Krantz [Write Out Your Head]",
+    "title": "Write Out Your Heads",
     "img": "/images/6.jpg",
-    "rating": 1,
-    "createdAt": 9220101
+    "rating": 5
   },
   {
     "id": 7,
-    "artist": "ppill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Fred Hersch with Crosby Street String Quartet [Breath by Breath]",
+    "title": "Begin Again",
     "img": "/images/7.jpg",
-    "rating": 2,
-    "createdAt": 77220101
+    "rating": 5
   },
   {
     "id": 8,
-    "artist": "rrill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "SWR Big Band Magnus Lindgren - John Beasley [Bird Lives]",
+    "title": "Scrapple from the Apple/Ah Leu Cha",
     "img": "/images/8.jpg",
-    "rating": 3,
-    "createdAt": 990220101
+    "rating": 5
   },
   {
     "id": 9,
-    "artist": "nnill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Ron Carter, Jack Dejohnette, Gonzalo Rubalcaba [Skyline]",
+    "title": "Gypsy",
     "img": "/images/9.jpg",
-    "rating": 4,
-    "createdAt": 117220101
+    "rating": 3
   },
   {
     "id": 10,
-    "artist": "qqill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Hiromi The Piano Quintet [Silver Lining Suite]",
+    "title": "Silver Lining Suite: Isolation",
     "img": "/images/10.jpg",
-    "rating": 3,
-    "createdAt": 203321
+    "rating": 4
   },
   {
     "id": 11,
-    "artist": "mmill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Bill Charlap Trio [Street of Dreams]",
+    "title": "Street Of Dreams",
     "img": "/images/11.jpg",
-    "rating": 5,
-    "createdAt": 2022001
+    "rating": 2
   },
   {
     "id": 12,
-    "artist": "uuill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Chick Corea Akoustic Band [Live]",
+    "title": "Morning Sprite",
     "img": "/images/12.jpg",
-    "rating": 1,
-    "createdAt": 550101
+    "rating": 5
   },
   {
     "id": 13,
-    "artist": "Bill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Butcher Brown [#King Butch], [Encore]",
+    "title": "Cabbage (DFC)",
     "img": "/images/13.jpg",
-    "rating": 2,
-    "createdAt": 990101
+    "rating": 3
   },
   {
     "id": 14,
-    "artist": "Bill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Bill Evans [On a Friday Evening]",
+    "title": "The Two Lonely People",
     "img": "/images/14.jpg",
-    "rating": 3,
-    "createdAt": 203322101
+    "rating": 3
   },
   {
     "id": 15,
-    "artist": "Bill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Brad Mehldau and Orpheus Chamber Orchestra [Variations on a Melancholy Theme]",
+    "title": "Postlude",
     "img": "/images/15.jpg",
-    "rating": 4,
-    "createdAt": 75101
+    "rating": 4
   },
   {
     "id": 16,
-    "artist": "lill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Tony Allen [There Is No End]",
+    "title": "Rich Black (feat. Koreatown Oddity)",
     "img": "/images/16.jpg",
-    "rating": 5,
-    "createdAt": 64364101
+    "rating": 2
   },
   {
     "id": 17,
-    "artist": "Bill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Avishai Cohen with Gothenburg Symphony Orchestra [Two Roses]",
+    "title": "Almah Sleeping",
     "img": "/images/17.jpg",
-    "rating": 5,
-    "createdAt": 23220101
+    "rating": 1
   },
   {
     "id": 18,
-    "artist": "will Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Peter Bernstein [What Comes Next]",
+    "title": "Blood Wolf Moon Blues",
     "img": "/images/18.jpg",
-    "rating": 3,
-    "createdAt": 232101
+    "rating": 2
   },
   {
     "id": 19,
-    "artist": "gill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Lee Ritenour [Dreamcatcher]",
+    "title": "starlight",
     "img": "/images/19.jpg",
-    "rating": 1,
-    "createdAt": 112220101
+    "rating": 4
   },
   {
     "id": 20,
-    "artist": "bill Evans Trio",
-    "title": "Autumn Leaves",
+    "artist": "Pat Metheny [From This Place]",
+    "title": "Pathmaker",
     "img": "/images/20.jpg",
-    "rating": 3,
-    "createdAt": 2043201
+    "rating": 5
   }
 ]

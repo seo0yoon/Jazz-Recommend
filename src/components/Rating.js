@@ -27,5 +27,6 @@ const RATINGS = [1, 2, 3, 4, 5];
 
 const RatingStar = styled.span`
   /* color: ${(props) => (props.selected ? "yellowgreen" : "slategray")}; */
-  color: ${({ selected }) => (selected ? "yellowgreen" : "slategray")};
+  color: ${({ selected }) => (selected ? "#ffb700;" : "#ffe5a2;")};
+  font-size: 30px;
 `;

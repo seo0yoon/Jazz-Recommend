@@ -1,21 +1,26 @@
 import React from "react";
-import styled from "styled-components";
 import Rating from "./Rating";
+import "./PlayList.scss";
 
 const PlayListItem = ({ item, onDelete }) => {
   const handleDeleteClick = () => onDelete(item.id);
 
   return (
-    <PlayListItemWrap>
-      <PlayListImg src={item.img} alt={item.artist} />
-      <div>
-        <p>{item.artist}</p>
-        <h1>{item.title}</h1>
-        <Rating value={item.rating} />
-        <p>{item.content}</p>
-        <button onClick={handleDeleteClick}>삭제</button>
+    <div className="PlayListItem">
+      <img className="PlayListItem-img" src={item.img} alt={item.artist} />
+      <div className="PlayListItem-rows">
+        <p className="PlayListItem-artist">{item.artist}</p>
+        <h1 className="PlayListItem-title">{item.title}</h1>
+        <div className="PlayListItem-rating">
+          <Rating value={item.rating} />
+        </div>
+        <div className="PlayListItem-buttons">
+          <button className="PlayListItem-delete-button" onClick={handleDeleteClick}>
+            Delete
+          </button>
+        </div>
       </div>
-    </PlayListItemWrap>
+    </div>
   );
 };
 
@@ -34,16 +39,3 @@ const PlayList = ({ items, onDelete }) => {
 };
 
 export default PlayList;
-
-const PlayListItemWrap = styled.div`
-  display: flex;
-  padding: 10px;
-  align-items: center;
-`;
-
-const PlayListImg = styled.img`
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  margin-right: 20px;
-`;

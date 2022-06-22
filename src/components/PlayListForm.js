@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import styled from "styled-components";
 import FileInput from "./FileInput";
 import RatingInput from "./RatingInput";
+import "./PlatListForm.scss";
 
 //리액트에서는 input의 값을 state로 관리한다 .state값과 input을 동일하게 만드는것을 제어컴포넌트라고함
 const PlayListForm = ({ setItems, items }) => {
@@ -41,23 +41,34 @@ const PlayListForm = ({ setItems, items }) => {
   };
 
   return (
-    <PlayListFormWrap onSubmit={handleSubmit}>
-      <FileInput name="img" value={values.img} onChange={handleChange} />
-      <input name="title" value={values.title} onChange={handleInputChange} />
-      <input name="artist" value={values.artist} onChange={handleInputChange} />
-      <RatingInput name="rating" value={values.rating} type="number" onChange={handleChange} />
-      <button type="submit" onClick={handleSubmit}>
-        확인
-      </button>
-    </PlayListFormWrap>
+    <form className="PlayListForm" onSubmit={handleSubmit}>
+      <FileInput className="PlayListForm-preview" name="imgFile" value={values.imgFile} onChange={handleChange} />
+      <div className="PlayListForm-rows">
+        <div className="PlayListForm-title-rating">
+          <input
+            className="PlayListForm-title"
+            name="title"
+            value={values.title}
+            placeholder="Please enter a title"
+            onChange={handleInputChange}
+          />
+        </div>
+        <input
+          className="PlayListForm-artist"
+          name="artist"
+          value={values.artist}
+          placeholder="Please enter a artist"
+          onChange={handleInputChange}
+        />
+        <RatingInput className="PlayListForm-rating" name="rating" value={values.rating} onChange={handleChange} />
+        <div className="PlayListForm-buttons">
+          <button className="PlayListForm-submit-button" type="submit">
+            Confirm
+          </button>
+        </div>
+      </div>
+    </form>
   );
 };
 
 export default PlayListForm;
-
-const PlayListFormWrap = styled.form`
-  display: flex;
-  flex-direction: column;
-  padding: 10px 0;
-  width: 300px;
-`;
