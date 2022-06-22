@@ -46,10 +46,10 @@ const App = () => {
         </div>
         <div className="App-sorts">
           <button className="AppSortButton" selected={order === "createdAt"} onClick={hadleArtistClick}>
-            제목순
+            Artist
           </button>
           <button className="AppSortButton" selected={order === "rating"} onClick={hadleBestClick}>
-            베스트순
+            Best
           </button>
         </div>
         <div className="App-PlayList">
