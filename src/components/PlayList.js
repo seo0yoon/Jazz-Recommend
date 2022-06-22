@@ -10,7 +10,13 @@ const PlayListItem = ({ item, onDelete }) => {
       <img className="PlayListItem-img" src={item.img} alt={item.artist} />
       <div className="PlayListItem-rows">
         <p className="PlayListItem-artist">{item.artist}</p>
-        <h1 className="PlayListItem-title">{item.title}</h1>
+        <h1 className="PlayListItem-title">
+          {item.title}
+          <a className="PlayListItem-link" target="_blank" href={item.link}>
+            🎧
+          </a>
+        </h1>
+
         <div className="PlayListItem-rating">
           <Rating value={item.rating} />
         </div>

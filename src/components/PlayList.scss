@@ -22,6 +22,11 @@
     .PlayListItem-title {
       font-weight: 400;
       font-size: 26px;
+
+      a.PlayListItem-link {
+        text-decoration: none;
+        margin-left: 12px;
+      }
     }
     .PlayListItem-rating {
     }

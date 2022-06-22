@@ -1,142 +1,162 @@
 [
   {
     "id": 1,
-    "artist": "Brad Mehldau [Jacob's Ladder]",
-    "title": "maybe As His Skies Are Wide",
-    "img": "/images/1.jpg",
-    "rating": 3
+    "artist": "SWR Big Band Magnus Lindgren - John Beasley [Bird Lives]",
+    "title": "Scrapple from the Apple/Ah Leu Cha",
+    "img": "/images/8.jpg",
+    "rating": 5,
+    "link": "https://www.youtube.com/watch?v=kbnaZ7qaVf8"
   },
   {
     "id": 2,
-    "artist": "Oded Tzur [Isabela]",
-    "title": "The Lion Turtle",
-    "img": "/images/2.png",
-    "rating": 2
+    "artist": "Wayne Krantz [Write Out Your Head]",
+    "title": "Write Out Your Heads",
+    "img": "/images/6.jpg",
+    "rating": 5,
+    "link": "https://www.youtube.com/watch?v=jdkzzzutQ9U"
   },
   {
     "id": 3,
-    "artist": "Tigran Hamasyan [StandArt]",
-    "title": "Softly, As In A Morning Sunrise",
-    "img": "/images/3.jpg",
-    "rating": 5
+    "artist": "Lee Ritenour [Dreamcatcher]",
+    "title": "starlight",
+    "img": "/images/19.jpg",
+    "rating": 4,
+    "link": "https://www.youtube.com/watch?v=KfKnSyEl45A"
   },
   {
     "id": 4,
     "artist": "Mark Turner [Return from the Stars]",
     "title": "Nigeria II",
     "img": "/images/4.jpg",
-    "rating": 2
+    "rating": 2,
+    "link": "https://www.youtube.com/watch?v=fbFKhIM44g4"
   },
   {
     "id": 5,
     "artist": "Art Blakey & the Jazz Messengers [First Flight to Tokyo : The Lost 1961 Recordings] ",
     "title": "Moanin'",
     "img": "/images/5.jpg",
-    "rating": 4
+    "rating": 4,
+    "link": "https://www.youtube.com/watch?v=Cv9NSR-2DwM"
   },
   {
     "id": 6,
-    "artist": "Wayne Krantz [Write Out Your Head]",
-    "title": "Write Out Your Heads",
-    "img": "/images/6.jpg",
-    "rating": 5
+    "artist": "Oded Tzur [Isabela]",
+    "title": "The Lion Turtle",
+    "img": "/images/2.png",
+    "rating": 2,
+    "link": "https://www.youtube.com/watch?v=uI-8tcyMnGk"
   },
   {
     "id": 7,
     "artist": "Fred Hersch with Crosby Street String Quartet [Breath by Breath]",
     "title": "Begin Again",
     "img": "/images/7.jpg",
-    "rating": 5
+    "rating": 5,
+    "link": "https://www.youtube.com/watch?v=uU5YxKnlBNQ"
   },
   {
     "id": 8,
-    "artist": "SWR Big Band Magnus Lindgren - John Beasley [Bird Lives]",
-    "title": "Scrapple from the Apple/Ah Leu Cha",
-    "img": "/images/8.jpg",
-    "rating": 5
+    "artist": "Brad Mehldau",
+    "title": "Blackbird",
+    "img": "/images/1.png",
+    "rating": 3,
+    "link": "https://www.youtube.com/watch?v=EJJTF94QvLc"
   },
   {
     "id": 9,
     "artist": "Ron Carter, Jack Dejohnette, Gonzalo Rubalcaba [Skyline]",
     "title": "Gypsy",
     "img": "/images/9.jpg",
-    "rating": 3
+    "rating": 3,
+    "link": "https://www.youtube.com/watch?v=uI-8tcyMnGk"
   },
   {
     "id": 10,
     "artist": "Hiromi The Piano Quintet [Silver Lining Suite]",
     "title": "Silver Lining Suite: Isolation",
     "img": "/images/10.jpg",
-    "rating": 4
+    "rating": 4,
+    "link": "https://www.youtube.com/watch?v=HTQNk-ZH0_U"
   },
   {
     "id": 11,
     "artist": "Bill Charlap Trio [Street of Dreams]",
     "title": "Street Of Dreams",
     "img": "/images/11.jpg",
-    "rating": 2
+    "rating": 2,
+    "link": "https://www.youtube.com/watch?v=PoPzmja1hIk"
   },
   {
     "id": 12,
     "artist": "Chick Corea Akoustic Band [Live]",
     "title": "Morning Sprite",
     "img": "/images/12.jpg",
-    "rating": 5
+    "rating": 5,
+    "link": "https://www.youtube.com/watch?v=cyZ19oUiAEY"
   },
   {
     "id": 13,
     "artist": "Butcher Brown [#King Butch], [Encore]",
     "title": "Cabbage (DFC)",
     "img": "/images/13.jpg",
-    "rating": 3
+    "rating": 3,
+    "link": "https://www.youtube.com/watch?v=WlloRjnCAxY"
   },
   {
     "id": 14,
     "artist": "Bill Evans [On a Friday Evening]",
     "title": "The Two Lonely People",
     "img": "/images/14.jpg",
-    "rating": 3
+    "rating": 3,
+    "link": "https://www.youtube.com/watch?v=wgXfou15I28"
   },
   {
     "id": 15,
     "artist": "Brad Mehldau and Orpheus Chamber Orchestra [Variations on a Melancholy Theme]",
     "title": "Postlude",
     "img": "/images/15.jpg",
-    "rating": 4
+    "rating": 4,
+    "link": "https://www.youtube.com/watch?v=3ExwjTswbRw"
   },
   {
     "id": 16,
     "artist": "Tony Allen [There Is No End]",
     "title": "Rich Black (feat. Koreatown Oddity)",
     "img": "/images/16.jpg",
-    "rating": 2
+    "rating": 2,
+    "link": "https://www.youtube.com/watch?v=4hQ0mW6WF-I"
   },
   {
     "id": 17,
     "artist": "Avishai Cohen with Gothenburg Symphony Orchestra [Two Roses]",
     "title": "Almah Sleeping",
     "img": "/images/17.jpg",
-    "rating": 1
+    "rating": 1,
+    "link": "https://www.youtube.com/watch?v=o0nlBicLp18"
   },
   {
     "id": 18,
     "artist": "Peter Bernstein [What Comes Next]",
     "title": "Blood Wolf Moon Blues",
     "img": "/images/18.jpg",
-    "rating": 2
+    "rating": 2,
+    "link": "https://www.youtube.com/watch?v=n8JWFE9Gfdk"
   },
   {
     "id": 19,
-    "artist": "Lee Ritenour [Dreamcatcher]",
-    "title": "starlight",
-    "img": "/images/19.jpg",
-    "rating": 4
+    "artist": "Tigran Hamasyan [StandArt]",
+    "title": "Softly, As In A Morning Sunrise",
+    "img": "/images/3.jpg",
+    "rating": 5,
+    "link": "https://www.youtube.com/watch?v=uqHvrjT7JV4"
   },
   {
     "id": 20,
     "artist": "Pat Metheny [From This Place]",
     "title": "Pathmaker",
     "img": "/images/20.jpg",
-    "rating": 5
+    "rating": 5,
+    "link": "https://www.youtube.com/watch?v=Hk6JFAZTjok"
   }
 ]

@@ -58,10 +58,9 @@ const PlayListForm = ({ setItems, items }) => {
           name="artist"
           value={values.artist}
           placeholder="Please enter a artist"
-          onChange={handleInputChange}
         />
-        <RatingInput className="PlayListForm-rating" name="rating" value={values.rating} onChange={handleChange} />
-        <div className="PlayListForm-buttons">
+        <div className="PlayListForm-ratingbutton">
+          <RatingInput className="PlayListForm-rating" name="rating" value={values.rating} onChange={handleChange} />
           <button className="PlayListForm-submit-button" type="submit">
             Confirm
           </button>
